@@ -25,6 +25,7 @@
 |**4**|Số lượng node ẩn là 500|98\.2%|32\.6 giây|
 |**5**|Số lượng lớp ảnh là 2|98\.3%|44\.2 giây|
 |**6**|Số lượng lớp ảnh là 3|98\.2%|43 giây|
+
 \- Dựa vào bảng trên thấy được kết quả cho thấy với số lượng lớp ảnh là 2 cho kết quả tốt nhất, với số lượng lớp ẩn lần lượt là 512 và 256. Nhưng để cho được kết quả tốt nhất thì thời gian train của 2 lớp ảnh lâu hơn các loại khác ở trên bảng.
 
 \- Tổng quan, độ chính xác cho ra của mỗi loại khá đồng đều độ sai số chỉ ở mức ±2. Thời gian train model thì phụ thuộc vào số lượng node ẩn và lớp ảnh rất nhiều.
